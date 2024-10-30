@@ -1,0 +1,3 @@
+/home/miriana/Desktop/PAOO/Tema1/CMakeFiles/Echipa.dir
+/home/miriana/Desktop/PAOO/Tema1/CMakeFiles/edit_cache.dir
+/home/miriana/Desktop/PAOO/Tema1/CMakeFiles/rebuild_cache.dir
