@@ -5,7 +5,7 @@ Echipa::Echipa(const std::string& nume, int nrJucatori, int puncte, int nrMeciur
     : nume(nume), nrJucatori(nrJucatori), puncte(puncte) {
     this->nrMeciuri = new int(nrMeciuri); // alocare dinamică pe heap pentru nrMeciuri
     std::cout << "Constructor: Echipa \"" << nume << "\" cu " << nrJucatori
-              << " jucatori și " << *this->nrMeciuri << " meciuri." << std::endl;
+              << " jucatori și " <<puncte << " puncte in " << *this->nrMeciuri << " meciuri." << std::endl;
 }
 
 // Operatorul de atribuire
