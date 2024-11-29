@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Echipa.dir/src/main.cpp.o CMakeFiles/Echipa.dir/src/Echipa.cpp.o CMakeFiles/Echipa.dir/src/EchipaVolei.cpp.o -o Echipa 
