@@ -32,14 +32,7 @@ int main() {
     team5->adaugaPuncte(15);
     team5->afiseazaInformatii();
 
-    std::cout << "\n=== Cerinta 4: Ce funcții sunt generate implicit de C++? ===\n";
-    std::cout << "Funcțiile generate implicit de C++ includ:\n";
-    std::cout << "1. Default constructor\n";
-    std::cout << "2. Copy constructor\n";
-    std::cout << "3. Move constructor\n";
-    std::cout << "4. Operator= pentru copiere\n";
-    std::cout << "5. Operator= pentru mutare\n";
-    std::cout << "6. Destructor\n";
+    std::cout << "\n=== Cerinta 4: ===\n";
 
     std::cout << "\nTestăm ce funcții sunt generate și apelate:\n";
     Echipa* team6 = new Echipa("Rapid", 8, 15, 6);
@@ -63,7 +56,8 @@ int main() {
 
     std::cout << "Mutarea echipei de volei este dezactivată folosind = delete\n";
 
-   std::cout << "\n=== Ierarhia ===\n\n";
+   //std::cout << "\n=== Ierarhia ===\n\n";
+   std::cout << "\n\n";
 
     // Creăm un obiect de tip Echipa* care pointează la o instanță de EchipaVolei
     Echipa* echipaPolimorfica = new EchipaVolei("Nationala Romania", 12, 50, 10, 1.85);
